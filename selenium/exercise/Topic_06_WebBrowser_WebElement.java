@@ -218,7 +218,6 @@ public class Topic_06_WebBrowser_WebElement {
         Assert.assertFalse(driver.findElement(By.cssSelector("li.special-char not-completed")).isDisplayed());
         Assert.assertFalse(driver.findElement(By.cssSelector("li.username-check completed")).isDisplayed());
         Assert.assertFalse(driver.findElement(By.cssSelector("li.plus-50 error completed")).isDisplayed());
-
     }
 
 
