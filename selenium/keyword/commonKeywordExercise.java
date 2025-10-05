@@ -84,4 +84,17 @@ public class commonKeywordExercise {
         options.addArguments("--disable-features=InsecureFormSubmissionWarning"); // quan trọng
     }
 
+    // button
+    public static void GoToTheDynamicPage(WebDriver driver,String URL) {
+        driver.manage().window().maximize();
+        driver.get(URL);
+    }
+
+    public static void GoToTheFahasaPage(WebDriver driver) {
+        driver.manage().window().maximize();
+        driver.get("https://www.fahasa.com/customer/account/create");
+    }
+
+
+
 }
