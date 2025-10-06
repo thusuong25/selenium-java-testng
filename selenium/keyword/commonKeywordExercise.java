@@ -56,8 +56,6 @@ public class commonKeywordExercise {
         driver.get("https://react.semantic-ui.com/maximize/dropdown-example-selection/");
     }
 
-
-
     public static void AllowInsecure(String[] args) {
         // Khai báo ChromeOptions
         ChromeOptions options = new ChromeOptions();
